@@ -11,4 +11,9 @@ Rails.application.routes.draw do
     post("/", action: "create")
     get("/", action: "index")
   end
+
+  namespace :jobs do
+    post("/", action: "create")
+    get("/", action: "index")
+  end
 end
