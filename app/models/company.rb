@@ -1,3 +1,3 @@
 class Company < ApplicationRecord
-  has many :jobs
+  has_many :jobs
 end
